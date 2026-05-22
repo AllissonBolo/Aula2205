@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olá Fulano de tal"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boleto"
+            android:id="@+id/btnBoleto"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Reserva"
+            android:id="@+id/btnReserva"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autorização"
+            android:id="@+id/btnAutorizacao"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Mural"
+            android:id="@+id/btnMural"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prestação de contas"
+            android:id="@+id/btnPrestacao"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Mudança"
+            android:id="@+id/btnMudanca"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Contatos com a portaria"
+        android:id="@+id/btnContatos"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+
+</LinearLayout>
